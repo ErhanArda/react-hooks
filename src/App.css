@@ -1,22 +1,22 @@
 
 .light {
-  background: rebeccapurple;
+  background: rgb(161, 125, 197);
   width: 100%;
   height: 100vh;
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
 .dark {
-  background: black;
+  background: rgb(0, 0, 0);
   width: 100%;
   height: 100vh;
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
