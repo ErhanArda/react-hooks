@@ -22,3 +22,29 @@
   font-size: calc(10px + 2vmin);
 }
 
+
+h1 {
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+  font-size: 6rem;
+}
+
+button {
+  background: rgba(255,255,255,0.3);
+  font-size: 3rem;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 10px;
+  color:  rgba(255,255,255,0.8);
+  border: solid 4px rgba(255,255,255,0.8);
+  border-radius: 10px;
+  transition: 200ms;
+}
+
+button:hover {
+  background: rgba(255,255,255,0.6);
+}
+
+button:active {
+  background: rgba(0,0,0,0.4);
+}
